@@ -1,0 +1,86 @@
+.skillsText {
+  font-size: 15px;
+  color:#b3b3b3;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.copyright{
+  display: block;
+	text-align: center;
+  padding-left: 15px;
+  font-size: 11px;
+}
+
+.circle path{
+  stroke: #42DCA3;
+}
+
+.noHighlight{
+    color: white;
+  font-weight: bold;
+}
+
+.socialList a {
+  display: inline;
+}
+
+footer{
+    background-color: #31323e;
+}
+
+#timeline{
+  background-color: #31323e;
+  width: 100%;
+}
+
+#contact{
+  background-color: #31323e;
+  width: 100%;
+  height: 100%;
+  /*background-image: url("../img/projects-bg.jpg");*/
+}
+
+#about{
+  background-color: #31323e;
+  width: 100%;
+  padding-bottom: 250px;
+}
+
+#fh5co-work{
+  width: 100%;
+    background-image: url("../img/projects-bg.jpg");
+}
+
+#aboutDiv{
+  padding-top: 4em;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/intro-bg.jpg");
+
+    /* Set a specific height */
+    /*height: 500px;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1440px){
+  #about{
+    padding-bottom: 250px;
+  }
+}

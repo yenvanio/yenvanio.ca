@@ -13,6 +13,10 @@
                                   supported by Chrome and Opera */
 }
 
+h2 {
+  white-space: nowrap;
+}
+
 .copyright{
   display: block;
 	text-align: center;

@@ -1,94 +1,45 @@
 .body {
-  font-family: 'Roboto', 'Helvetica', 'Sans-Serif'
+    background: #292c34;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.skillsText {
-  font-size: 15px;
-  color:#b3b3b3;
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+.name {
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
 }
 
-h2 {
-  white-space: nowrap;
+.sub-title {
+    font-size: 25px;
+    font-style: bold;
+    padding: 10px;
 }
 
-.copyright{
-  display: block;
-	text-align: center;
-  padding-left: 15px;
-  font-size: 11px;
+.sub-div {
+    text-align: center;
 }
 
-.circle path{
-  stroke: #42DCA3;
+.box {
+    border: solid 1px white;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
 }
 
-.noHighlight{
-    color: white;
-  font-weight: bold;
+.box:hover {
+    background: #3cbe82;
+    cursor: pointer;
 }
 
-.socialList a {
-  display: inline;
-}
-
-footer{
-    background-color: #31323e;
-}
-
-#timeline{
-  background-color: #31323e;
-  width: 100%;
-}
-
-#contact{
-  background-color: #31323e;
-  width: 100%;
-  height: 100%;
-  /*background-image: url("../img/projects-bg.jpg");*/
-}
-
-#about{
-  background-color: #31323e;
-  width: 100%;
-  padding-bottom: 250px;
-}
-
-#fh5co-work{
-  width: 100%;
-    background-image: url("../img/projects-bg.jpg");
-}
-
-#aboutDiv{
-  padding-top: 4em;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("../img/intro-bg.jpg");
-
-    /* Set a specific height */
-    /*height: 500px;*/
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* MEDIA QUERIES */
-@media (max-width:1440px){
-  #about{
-    padding-bottom: 250px;
-  }
+.spacing-v {
+    margin-top: 50px;
 }

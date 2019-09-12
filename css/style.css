@@ -26,11 +26,21 @@
 
 .sub-div {
     text-align: center;
+    margin: auto; 
+    max-width: 300px;
+}
+
+.fa {
+    font-size: 35px;
 }
 
 .box {
     border: solid 1px white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
     padding: 10px;
+    margin: 10px;
     display: inline-block;
 }
 
@@ -41,4 +51,20 @@
 
 .spacing-v {
     margin-top: 25px;
+}
+
+.right {
+    border-right: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.top {
+    border-top: none;
+}
+
+.bottom {
+    border-bottom: none;
 }

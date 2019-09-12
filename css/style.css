@@ -31,7 +31,6 @@
 .box {
     border: solid 1px white;
     padding: 10px;
-    margin: 10px;
     display: inline-block;
 }
 
@@ -41,5 +40,5 @@
 }
 
 .spacing-v {
-    margin-top: 50px;
+    margin-top: 25px;
 }
